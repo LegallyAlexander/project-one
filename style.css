@@ -1,0 +1,32 @@
+header {
+    background-color: #0a2b4e;
+}
+
+img {
+    padding: 10px;
+    border-radius:50%;
+    max-width: 25%;
+    max-height: 25%;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    padding: 5px;
+}
+
+p {
+    margin: 50px;
+
+}
+
+.button {
+    color: #a71814;
+    background-color: #efefef;
+    
+    border: 2px solid #a71814;
+    border-radius: 5px;
+    padding: 5px;
+}
