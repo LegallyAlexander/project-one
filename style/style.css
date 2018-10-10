@@ -7,10 +7,15 @@ img {
     border-radius:50%;
     max-width: 25%;
     max-height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
+    text-align: center;
 }
 
 h1 {
@@ -21,16 +26,34 @@ h2 {
     padding: 5px;
 }
 
+h3 {
+    font-size: 16pt;
+}
 p {
     margin: 50px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+}
+
+li{
+    font-size: 14pt;
 }
 
 .button {
-    color: #a71814;
-    background-color: #efefef;
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #a71814;
     
     border: 2px solid #a71814;
     border-radius: 5px;
     padding: 5px;
+    text-align: center;
+}
+
+
+.center {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
