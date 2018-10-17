@@ -1,6 +1,6 @@
 header {
     background-color: #0a2b4e;
-    border: 1px solid #0a2b4e;
+    border: .05px solid #0a2b4e;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -60,11 +60,20 @@ li{
     border-radius: 5px;
     padding: 5px;
     text-align: center;
+
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+#bordersettings {
+    border: 7px solid #a71814;
+    margin-bottom: 10px;
+}
 
 .center {
-    width: 300px;
+    width: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
